@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hotel Booking</string>
+
+    <string name="Open"> Open </string>
+    <string name="Close"> Close </string>
+
+    <string name="Please_Click_Back_Again_To_Exit"> Please Click Back Again To Exit </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="default_notification_channel_id">868a61d6-8a7b-440e-88e3-0d5e48147875</string>
+
+
+</resources>

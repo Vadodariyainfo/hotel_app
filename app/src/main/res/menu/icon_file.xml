@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/home"
+                android:title="Home"
+                android:icon="@drawable/home"
+                />
+
+            <item
+                android:id="@+id/profile"
+                android:title="Profile"
+                android:icon="@drawable/account"/>
+
+            <item
+                android:id="@+id/room"
+                android:title="Room"
+                android:icon="@drawable/room"/>
+
+            <item
+                android:id="@+id/location"
+                android:title="Location"
+                android:icon="@drawable/location"/>
+
+            <item
+                android:id="@+id/facilities"
+                android:title="Facilities"
+                android:icon="@drawable/facilities"/>
+
+            <item
+                android:id="@+id/gallery"
+                android:title="Gallery"
+                android:icon="@drawable/image"/>
+
+            <item
+                android:id="@+id/setting"
+                android:title="Setting"
+                android:icon="@drawable/setting"/>
+
+            <item
+                android:id="@+id/contact_us"
+                android:title="Contact Us"
+                android:icon="@drawable/phone"/>
+
+            <item
+                android:id="@+id/about_us"
+                android:title="About Us"
+                android:icon="@drawable/about_us"/>
+
+            <item
+                android:id="@+id/log_out"
+                android:title="Log Out"
+                android:icon="@drawable/logout"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.UpdateProfileActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/primaryTextColor">
+
+        <ImageView
+            android:id="@+id/iv_back_arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/arrow_back"
+            android:tint="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Update Profile"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_12sdp"/>
+
+        <ImageView
+            android:id="@+id/iv_save"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_save_24"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/_95sdp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/image3"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/gray"
+                    android:layout_marginHorizontal="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name :-"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name :-"
+                    android:textSize="16dp"
+                    android:textColor="@color/red"
+                    android:background="@android:color/transparent"
+                    android:maxLength="25"
+                    android:maxLines="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/gray"
+                    android:layout_marginHorizontal="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number :-"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <EditText
+                    android:id="@+id/et_phone_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number :-"
+                    android:textSize="16dp"
+                    android:textColor="@color/red"
+                    android:background="@android:color/transparent"
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/gray"
+                    android:layout_marginHorizontal="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email Id :-"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <EditText
+                    android:id="@+id/et_email_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email Id :-"
+                    android:textSize="16dp"
+                    android:textColor="@color/red"
+                    android:background="@android:color/transparent"
+                    android:maxLines="1"
+                    android:maxLength="40"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/gray"
+                    android:layout_marginHorizontal="5dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
